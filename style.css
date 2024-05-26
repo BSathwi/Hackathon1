@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container1 {
+    background-image: url("https://img.freepik.com/free-photo/travel-concept-with-worldwide-landmarks_23-2149153263.jpg?3&w=900&t=st=1693028216~exp=1693028816~hmac=632133635d5bac20764ec5c02d4cdd79aac8d72e460de93d0f6706f78874a6d2");
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
+    overflow-y: hidden;
+}
+
+.img1 {
+    height: 80px;
+    width: 80px;
+}
+
+.heading {
+    font-family: "Bree serif";
+    padding-bottom: 20px;
+}
+
+.input {
+    height: 40px;
+    width: 60%;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    font-family: "Bree serif";
+
+}
+
+.button {
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+.container2 {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 14px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+}
+
+
+.img2 {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 40vh;
+
+}
+
+.para3 {
+    color: black;
+    font-size: 15px;
+
+}
+
+.heading2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.container2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.bg-container {
+    background-color: #faf5f5;
+    text-align: center;
+}
+
+.image-container {
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-taj-mahal-sunrise-its-reflection-india-agra_400112-861.jpg?w=996");
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "sans-serif";
+    font-weight: 400;
+
+}
+
+.image-heading {
+    color: white;
+    padding: 30px;
+}
+
+.image-container1 {
+    background-image: url("https://img.freepik.com/free-photo/famous-eiffel-tower-paris-with-gorgeous-colors_268835-830.jpg?w=1060&t=st=1693050064~exp=1693050664~hmac=dcfadf8052064cb26042e1cbe50023efcd508eae998256bc79a01bdb3132856a");
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "sans-serif";
+    font-weight: 400;
+
+}
+
+.image-container2 {
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-sunset-los-angeles-downtown-skyline-ca-usa_255553-740.jpg?w=1060");
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "sans-serif";
+    font-weight: 400;
+}
+
+
+
+.discount-container {
+    background-image: url("https://img.freepik.com/free-photo/los-angeles-downtown-night-with-urban-buildings-light-trail_649448-2535.jpg?w=1060&t=st=1693050652~exp=1693051252~hmac=53135d95a6deb433dc3df8dc2e13101da87a1e1a44995fbc805e8cea93e84ff9");
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+}
+
+.discount-card-container {
+    background-color: black;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.discount-container-para1 {
+    font-family: "Cursive";
+    font-size: 30px;
+
+}
+
+.discount-card-button {
+    width: 130px;
+    height: 50px;
+}
+
+
+.user-container {
+    background-color: #0275d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.user-para {
+    color: white;
+    font-size: 15px;
+}
+
+.user-heading {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.user-image {
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.checked {
+    color: orange;
+}
+
+.cart {
+    padding: 40px;
+    color: black;
+}
+
+.heading_cart {
+    text-align: center;
+}
+
+.image_cart {
+    height: 20%;
+    width: 30%;
+    max-height: 20%;
+    padding-bottom: 30px;
+}
+
+.items {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.total_cost {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+
+#unlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    flex: 1 0 30%;
+    /* Adjust as needed */
+}
+
+.list-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.background {
+
+    background-image: url("https://img.freepik.com/free-photo/photorealistic-style-clouds_23-2151058830.jpg?t=st=1705246106~exp=1705249706~hmac=4605dcecf9e0dccca3ac3e6f4cbb1e0c8643879a8e3236a06c595183f034e5d8&w=740");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.login_card_title {
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.login_container {
+    background-color: white;
+    background-image: url("https://img.freepik.com/free-vector/airplane-flying-around-globe_1284-42938.jpg?w=900&t=st=1703945197~exp=1703945797~hmac=6cc19b446bb99c4edd783cfa6356098df7a50e451ab8defc0e43198027eb1c55");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 4%;
+    width: 100%;
+    box-shadow: 10px 10px 5px #818281;
+    border-radius: 10px;
+}
+
+.username {
+    border-radius: 10px;
+}
+
+.signing {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}

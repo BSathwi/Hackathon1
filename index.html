@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Start of Async Drift11 Code -->
+    <script>
+        "use strict";
+
+        ! function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function(t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('r4ry2hw3zier');
+    </script>
+    <!-- End of Async Drift Code -->
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" class="img1" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <button class="btn btn-danger" onclick="display('sectionlogin')">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="home">
+            <div class="container1 container  ">
+                <div class="text-center">
+                    <h1 class="heading">Travel Across The globe</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <input type="text" class="input" placeholder="search her for tourist places" />
+                        <button class="button">Search</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1 class="heading text-center mt-2">Featured Destinations</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_1">
+                            <div class="container2 shadow">
+                                <img src="https://img.freepik.com/premium-photo/mosque-with-blue-mosque-background_954226-101688.jpg?w=900" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">Taj Mahal</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger">3299/- RS</button>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_2">
+                            <div class="container2 shadow">
+
+                                <img src="https://img.freepik.com/free-photo/big-ben-houses-parliament-london-uk_268835-1400.jpg?w=996&t=st=1703003486~exp=1703004086~hmac=655dcfee7abd0aad27ad4fc45a7abf6e42ecfb16fad658c7ef9659500832b0ce" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">London</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger">3299/- RS</button>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_3">
+                            <div class="container2 shadow">
+                                <img src="https://img.freepik.com/premium-photo/eiffel-tower-paris-cityscape-summer-sunny-day-france_257123-3962.jpg" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">Paris</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger">3299/- RS</button>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="bg-container pb-4">
+            <h1 class="heading">Travelling gallery</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container">
+
+                                <h1 class="image-heading">INDIA</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container1">
+
+                                <h1 class="image-heading">Paris</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container2">
+
+                                <h1 class="image-heading">Los Angles</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <h1 class="heading text-center">Discount Page</h1>
+            <div class="discount-container">
+                <div class="discount-card-container">
+                    <div class="d-flex flex-row">
+                        <div>
+                            <p class="discount-container-para1">Get 30% on Top destinations.</p>
+                            <p>Book your Slot now before August 31st. You will get 30% discount.</p>
+                        </div>
+                        <button class="btn btn-outline-light discount-card-button">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="userreview">
+            <h1 class="heading text-center">User Review</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12">
+                        <div class="row">
+                            <img src="https://res.cloudinary.com/danm2mfq5/image/upload/v1693055456/undraw_contact_us_re_4qqt_nuti1k.svg" class="w-50" />
+
+                            <div class="text-center pl-5">
+                                <h1 class="heading">Contact Us</h1>
+                                <p>+91 9339364673</p>
+                                <p>+91 9339364643</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="sectioncard">
+        <div class="cart">
+            <h1 class="heading_cart">Cart items</h1>
+            <div class="items d-flex flex-row" id="items_container">
+                <ul id="unlist">
+
+                </ul>
+            </div>
+
+            <div class="items d-flex flex-row">
+                <hr />
+                <p1 class="total_cost">Total : <span id="total_pay">0.00</span></p1>
+            </div>
+            <button class="btn btn-secondary" onclick="display('sectionhome1')">Back</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div id="sectionlogin">
+        <div class="background">
+            <form class="login_container col-10 col-md-6" id="SignInForm">
+                <h1 class="text-center login_card_title">Login</h1>
+                <label for="username" class="username">Username</label><br>
+                <input type="email" id="username" class="form-control username" style="background-color:transparent;" placeholder="name@example.com"><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" class="form-control username" style="background-color:transparent;" placeholder="Enter your password"><br>
+                <p style="Color:#3484ed; font-size:15px;">forget password ?</p>
+                <div class="d-flex flex-row">
+                    <input type="checkbox" id="checkbox_verification" />
+                    <label for="checkbox_verification" style="padding:10px; padding-top:15px; font-weight:bold;">Remember me</label>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center mb-2">
+                    <button class="btn btn-primary">Login</button>
+                </div>
+                <p style="text-align:center; font-size:20px;">or</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="signing pr-3 pl-3 mb-2" style="background-color:transparent;">SignUp with google</button>
+                </div>
+                <p style="text-align:center;">Need an Account? <a style="color:#3484ed; " id="Register" onclick="display('sectionregister')">Register Here</a></p>
+
+                <button onclick="display('sectionhome')" class="btn btn-secondary">Back</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="sectionregister">
+        <div class="w-100">
+            <div class="background">
+                <form class="login_container col-10 col-md-6" id="registrationForm">
+                    <label for="username" class="emailInput">Username</label><br>
+                    <input type="email" id="emailInput" class="form-control username" style="background-color:transparent;" placeholder="name@example.com"><br>
+                    <label for="passwordInput">Create New password</label><br>
+                    <input type="password" id="passwordInput" class="form-control username" style="background-color:transparent;" placeholder="Create your password"><br>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" class="form-control username" style="background-color:transparent;" placeholder="Enter Your First Name"><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" class="form-control username" style="background-color:transparent;" placeholder="Enter Your last Name"><br>
+                    <div class="text-center">
+                        <button class="btn btn-primary">Confirm</button>
+                    </div>
+
+                    <button onclick="display('sectionlogin')" class="btn btn-secondary">Back</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- After Login -->
+
+    <div id="sectionhome1">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" class="img1" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="#" onclick="display('sectioncard')">Addtocart</a>
+                            <button class="btn btn-danger" onclick="display('sectionhome')">signout</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="home">
+            <div class="container1 container  ">
+                <div class="text-center">
+                    <h1 class="heading">Travel Across The globe</h1>
+                    <div class="d-flex flex-row justify-content-center">
+                        <input type="text" class="input" placeholder="search her for tourist places" />
+                        <button class="button">Search</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1 class="heading text-center mt-2">Featured Destinations</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_1">
+                            <div class="container2 shadow">
+                                <img src="https://img.freepik.com/premium-photo/mosque-with-blue-mosque-background_954226-101688.jpg?w=900" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">Taj Mahal</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger" id="price_1">3299/- RS</button>
+                                        <button class="btn btn-primary" id="button_1">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_2">
+                            <div class="container2 shadow">
+
+                                <img src="https://img.freepik.com/free-photo/big-ben-houses-parliament-london-uk_268835-1400.jpg?w=996&t=st=1703003486~exp=1703004086~hmac=655dcfee7abd0aad27ad4fc45a7abf6e42ecfb16fad658c7ef9659500832b0ce" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">London</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger" id="price_2">3299/- RS</button>
+                                        <button class="btn btn-primary" id="button_2">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-5" id="product_3">
+                            <div class="container2 shadow">
+                                <img src="https://img.freepik.com/premium-photo/eiffel-tower-paris-cityscape-summer-sunny-day-france_257123-3962.jpg" class="w-100 img2" />
+                                <div class="text-center">
+                                    <h1 class="heading2">Paris</h1>
+                                    <p class="para3">The interior of the mausoleum is organized around an octagonal marble chamber ornamented with low-relief carvings and semiprecious stones (pietra dura). </p>
+                                    <div>
+                                        <button class="btn btn-danger" id="price_3">3299/- RS</button>
+                                        <button class="btn btn-primary" id="button_3">Book Now</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="bg-container pb-4">
+            <h1 class="heading">Travelling gallery</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container">
+
+                                <h1 class="image-heading">INDIA</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container1">
+
+                                <h1 class="image-heading">Paris</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-2 ">
+                        <div>
+                            <div class="image-container2">
+
+                                <h1 class="image-heading">Los Angles</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <h1 class="heading text-center">Discount Page</h1>
+            <div class="discount-container">
+                <div class="discount-card-container">
+                    <div class="d-flex flex-row">
+                        <div>
+                            <p class="discount-container-para1">Get 30% on Top destinations.</p>
+                            <p>Book your Slot now before August 31st. You will get 30% discount.</p>
+                        </div>
+                        <button class="btn btn-outline-light discount-card-button">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="userreview">
+            <h1 class="heading text-center">User Review</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div>
+                            <div class="user-container container2 shadow">
+
+                                <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" class="user-image" />
+                                <h1 class="user-heading">Pradeep</h1>
+                                <p class="user-para">Travel Tourister did a fantastic job. They have provided their best services to us , the overall management was excellent and all the interactions very professional and transparent. Mr. Sonu was very helpful and nice to us.</p>
+                                <h2 style="color:white;">Star Rating</h2>
+                                <div class="d-flex flex-row m-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12">
+                        <div class="row">
+                            <img src="https://res.cloudinary.com/danm2mfq5/image/upload/v1693055456/undraw_contact_us_re_4qqt_nuti1k.svg" class="w-50" />
+
+                            <div class="text-center pl-5">
+                                <h1 class="heading">Contact Us</h1>
+                                <p>+91 9339364673</p>
+                                <p>+91 9339364643</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="sectioncard">
+        <div class="cart">
+            <h1 class="heading_cart">Cart items</h1>
+            <div class="items d-flex flex-row" id="items_container">
+                <ul id="unlist">
+
+                </ul>
+            </div>
+
+            <div class="items d-flex flex-row">
+                <hr />
+                <p1 class="total_cost">Total : <span id="total_pay">0.00</span></p1>
+            </div>
+            <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+    <script type="module">
+        import {
+            initializeApp
+        } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        import {
+            getDatabase,
+            set,
+            ref
+        } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
+        import {
+            getAuth,
+            createUserWithEmailAndPassword,
+            signInWithEmailAndPassword
+        } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+
+
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyB61kYs8dz-to_Z_DyPLvTfvsavzDxU79s",
+            authDomain: "webap-93ddc.firebaseapp.com",
+            projectId: "webap-93ddc",
+            storageBucket: "webap-93ddc.appspot.com",
+            messagingSenderId: "173174874193",
+            appId: "1:173174874193:web:8b6f5d69dc64a4b0cdd870"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase();
+        const auth = getAuth(app);
+        const registrationForm = document.getElementById("registrationForm");
+        const emailInput = document.getElementById("emailInput");
+        const passwordInput = document.getElementById("passwordInput");
+        const fnameInput = document.getElementById("fname");
+        const lnameInput = document.getElementById("lname");
+
+
+        let registerUser = evt => {
+            evt.preventDefault();
+            createUserWithEmailAndPassword(auth, emailInput.value, passwordInput.value)
+                .then(credentials => {
+                    alert("User created successfully!");
+                    const uid = credentials.user.uid;
+                    set(ref(db, `UsersAuthList/${uid}`), {
+                        email: emailInput.value,
+                        firstname: fnameInput.value,
+                        lastname: lnameInput.value
+                    }).then(() => {
+                        alert("User created successfully!");
+                        emailInput.value = "";
+                        fnameInput.value = "";
+                        lnameInput.value = "";
+                        passwordInput.value = "";
+
+                    }).catch(error => {
+                        alert("Error updating user data: " + error.message);
+                        emailInput.value = "";
+                        fnameInput.value = "";
+                        lnameInput.value = "";
+                        passwordInput.value = "";
+                    });
+                }).catch(error => {
+                    alert("Error creating user: " + error.message);
+                    emailInput.value = "";
+                    fnameInput.value = "";
+                    lnameInput.value = "";
+                    passwordInput.value = "";
+                });
+        };
+
+        registrationForm.addEventListener("submit", registerUser);
+
+
+
+        // Assuming successful login logic here
+        function successfulLogin() {
+            // Your successful login logic here
+            emailInput1.value = "";
+            passwordInput1.value = "";
+            // Redirect to the home page
+            display('sectionhome1');
+        }
+
+        // Your web app's Firebase configuration
+
+
+        // Initialize Firebase
+        const SignInForm = document.getElementById("SignInForm");
+        const emailInput1 = document.getElementById("username");
+        const passwordInput1 = document.getElementById("password");
+
+        let signInUser = evt => {
+            evt.preventDefault();
+            signInWithEmailAndPassword(auth, emailInput1.value, passwordInput1.value)
+                .then(() => {
+                    // Redirect to home page after successful login
+                    successfulLogin();
+                })
+                .catch(error => {
+                    alert("Error signing in: " + error.message);
+                });
+        };
+
+        SignInForm.addEventListener("submit", signInUser);
+    </script>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
